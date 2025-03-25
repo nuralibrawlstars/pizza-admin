@@ -1,0 +1,25 @@
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.addButton {
+    background: $add-new-dihs-bg;
+    color: $add-new-dist-text;
+    padding: 4px 15px;
+    border: $delete-btn-color;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px grey;
+
+    &:hover {
+        cursor: pointer;
+        background: $active-tab-color;
+    }
+}
+
+
+    
+

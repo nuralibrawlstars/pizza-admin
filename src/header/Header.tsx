@@ -3,7 +3,7 @@ import s from "./Header.module.scss"
 
 const Header = () => {
     return (
-        <header className={s.header}>
+        <header className={`${s.header} container`}>
             <h1 className={s.title}>Pizza Admin</h1>
         <nav className={s.nav}>
          
