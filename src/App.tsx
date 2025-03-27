@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.scss'
 import Layout from './layout/Layout'
 import DishesPages from './pages/DishesPage/DishesPages'
+import mock from "./mock"
 
 
 function App() {
