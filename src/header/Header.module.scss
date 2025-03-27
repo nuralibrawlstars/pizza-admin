@@ -1,9 +1,6 @@
 .header {
+    @extend %flexWrap;
     background: $header-bg;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     color: $header-title;
 }
 
@@ -15,8 +12,13 @@
 .link {
     text-decoration: none;
     color: inherit;
+    font-size: 18px;
 
     &:hover {
-        color: #000;
+        scale: 1.2;
     }
+}
+
+.active {
+    color: $active-tab-color;
 }

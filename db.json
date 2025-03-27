@@ -1,0 +1,22 @@
+{
+    "dishes": [
+        {
+            "id": "dish1",
+            "title": "Pepperoni",
+            "price": 2800,
+            "img": "/pepperoni.jpeg"
+        },
+        {
+            "id": "dish2",
+            "title": "Margarita",
+            "price": 2000,
+            "img": "/margarita.jpeg"
+        },
+        {
+            "id": "dish3",
+            "title": "Cola",
+            "price": 800,
+            "img": "/cola.jpeg"
+        }
+    ]
+}
