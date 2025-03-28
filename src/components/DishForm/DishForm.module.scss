@@ -1,0 +1,50 @@
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .fileName {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .imagePreview {
+    margin-top: 8px;
+  }
+  
+  .imagePreview img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .saveButton {
+    @include button($active-tab-color, $add-new-dist-text);
+  }
+  
+  .saveButton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
