@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import dishesReducer from "./dishesSlice"
-
+import ordersReducer from "./ordersSlice"
 const store=configureStore({
     reducer: {
-        dishes: dishesReducer
+        dishes: dishesReducer,
+        orders: ordersReducer,
     }
 })
 
