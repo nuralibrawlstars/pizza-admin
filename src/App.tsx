@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.scss'
 import Layout from './layout/Layout'
 import DishesPages from './pages/DishesPage/DishesPages'
-import mock from "./mock"
+import OrdersPage from './pages/OrderPage/OrdersPage'
+
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path='/dishes' element={<DishesPages />} />
+          <Route path="/orders" element={<OrdersPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
