@@ -21,7 +21,7 @@
     ],
     "orders": [
         {
-            "id": "order2",
+            "id": "order1",
             "items": {
                 "dish1": 1
             }
@@ -29,7 +29,7 @@
         {
             "id": "order2",
             "items": {
-                "dish1": 1
+                "dish2": 2
             }
         }
     ]
